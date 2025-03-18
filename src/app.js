@@ -1,14 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const app = express();
 
-
-// Write a GET route to return the value stored in the NUMBER variable stored in the .env file
-/*
-{
-    "number" : "2"
-}
-*/
 dotenv.config(); // Load environment variables
 
 const app = express();
